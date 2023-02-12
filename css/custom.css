@@ -1,2 +1,20 @@
-
 /** ADD YOUR AWESOME CODES HERE **/
+
+.header-address {
+    color: #fff;
+    font-size: 1.6rem;
+}
+.first-timetable-container {
+    display: flex;
+    justify-content: center;
+}
+.timetable-heading {
+    color: #fff;
+}
+.logo-image {
+    background: url('../images/red\ logo\ 1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 110px;
+    height: 55px;
+}

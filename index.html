@@ -38,10 +38,7 @@
 	<header id ='header' class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container">
-				<a class="navbar-brand" href="index.html">
-					<!-- <img src="images/logo.png" alt="" /> -->
-					<h1>Brazuca Cafe</h1>
-				</a>
+				<a class="navbar-brand logo-image" href="index.html"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
 				</button>
@@ -62,23 +59,23 @@
 	<div id="slides" class="cover-slides">
 		<ul class="slides-container">
 			<li class="text-center">
-				<img src="images/food/bahn mi sandwich.jpg" alt="">
+				<img src="images/store front.jpg" alt="">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
 							<h1 class="m-b-20"><strong>Welcome To <br> Brazuca Cafe</strong></h1>
-							<h3>1 Methil Street, Glasgow </h3>
+							<h3 class="header-address">1 Methil Street, Glasgow </h3>
 						</div>
 					</div>
 				</div>
 			</li>
 			<li class="text-center">
-				<img src="images/food/xinxim, seafood moqueca.jpg" alt="">
+				<img src="images/food/bahn mi sandwich.jpg" alt="">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
 							<h1 class="m-b-20"><strong>Welcome To <br> Brazuca Cafe</strong></h1>
-							<h3>1 Methil Street, Glasgow </h3>
+							<h3 class="header-address">1 Methil Street, Glasgow </h3>
 						</div>
 					</div>
 				</div>
@@ -89,7 +86,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<h1 class="m-b-20"><strong>Welcome To <br> Brazuca Cafe</strong></h1>
-							<h3>1 Methil Street, Glasgow </h3>
+							<h3 class="header-address">1 Methil Street, Glasgow </h3>
 						</div>
 					</div>
 				</div>
@@ -120,12 +117,20 @@
 							<button data-filter=".coffee">Coffee</button>
 							<button data-filter=".food">Food</button>
 							<button data-filter=".dessert">Dessert</button>
+							<button data-filter=".menu">Menu</button>
 						</div>
 					</div>
 				</div>
 			</div>
 				
 			<div class="row special-list">
+				<div class="col-lg-4 col-md-6 special-grid menu">
+					<div class="gallery-single fix">
+						<a href="images/menu image.png" class="lightbox">
+							<img src="images/menu image.png" class="img-fluid" alt="Image">
+						</a>
+					</div>
+				</div>
 				<div class="col-lg-4 col-md-6 special-grid coffee">
 					<div class="gallery-single fix">
 						<img src="images/food/rocco espresso.jpg" class="img-fluid" alt="Image">
@@ -134,8 +139,7 @@
 							<h4>Rocco Espresso</h4>
 						</div>
 					</div>
-				</div>
-				
+				</div>	
 				<div class="col-lg-4 col-md-6 special-grid coffee">
 					<div class="gallery-single fix">
 						<img src="images/food/roasted coffee bean from rocco espresso.jpg" class="img-fluid" alt="Image">
@@ -185,17 +189,7 @@
 						</div>
 					</div>
 				</div>
-				
-				<div class="col-lg-4 col-md-6 special-grid food">
-					<div class="gallery-single fix">
-						<img src="images/food/feijoada completa.jpg" class="img-fluid" alt="Image">
-						<div class="why-text">
-							<br>
-							<h4>Feijoada Completa</h4>
-						</div>
-					</div>
-				</div>
-				
+						
 				<div class="col-lg-4 col-md-6 special-grid food">
 					<div class="gallery-single fix">
 						<img src="images/food/brazuca salad rice.jpg" class="img-fluid" alt="Image">
@@ -276,6 +270,7 @@
 					</div>
 				</div>
 				
+				
 			</div>
 		</div>
 	</div>
@@ -296,6 +291,11 @@
 					<div class="col-sm-12 col-md-4 col-lg-4">
 						<a class="lightbox" href="images/food/bahn mi sandwich.jpg">
 							<img class="img-fluid" src="images/food/bahn mi sandwich.jpg" alt="Gallery Images">
+						</a>
+					</div>
+					<div class="col-sm-12 col-md-4 col-lg-4">
+						<a class="lightbox" href="images/food/burger.jpg">
+							<img class="img-fluid" src="images/food/burger.jpg" alt="Gallery Images">
 						</a>
 					</div>
 					<div class="col-sm-6 col-md-4 col-lg-4">
@@ -324,11 +324,6 @@
 						</a>
 					</div>
 					<div class="col-sm-6 col-md-4 col-lg-4">
-						<a class="lightbox" href="images/food/feijoada completa.jpg">
-							<img class="img-fluid" src="images/food/feijoada completa.jpg" alt="Gallery Images">
-						</a>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-4">
 						<a class="lightbox" href="images/food/rice farofa vinaigrette.jpg">
 							<img class="img-fluid" src="images/food/rice farofa vinaigrette.jpg" alt="Gallery Images">
 						</a>
@@ -343,32 +338,6 @@
 		</div>
 	</div>
 	<!-- End Gallery -->
-
-	<!-- Start opening hours -->
-<!-- 	
-	<div class="opening-hours">
-		<div class="opening-hours-container">
-			<div class="opening-hours-text">
-				<h1 class="timetable-heading">Opening Hours</h1>
-			</div>
-			<div class="opening-hours-timetable">
-				<div class="first-timetable-container">
-					<div class="first-timetable">
-						<h2 class="timetable-heading">Monday - Saturday</h2>
-						<br>
-						<h3 class="timetable-heading">7 AM - 7 PM</h3>
-					</div>
-				</div>
-				<div class="second-timetable">
-					<h2 class="timetable-heading">Sunday</h2>
-					<br>
-					<h3 class="timetable-heading">10 AM - 7 PM</h3>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-	<!-- End opening hours -->
 
 	<!-- Start map and contact form -->
 	
@@ -481,11 +450,16 @@
 					<h3>Subscribe</h3>
 					
 					<ul class="list-inline f-social">
-						<li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item">
+							<a href="https://www.facebook.com/BrazucaCafe/">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://instagram.com/brazucacafeglasgow?igshid=YmMyMTA2M2Y=">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</a>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -495,8 +469,13 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<p class="company-name">All Rights Reserved. &copy; 2018 <a href="#">Yamifood Restaurant</a> Design By : 
-					<a href="https://html.design/">html design</a></p>
+						<p class="company-name"> Design By : 
+							<a href="https://html.design/">html design</a>
+							<br>
+							Edited by Michael Jack
+
+							<a href="https://michaelinvicto.github.io/portfolio-website/">Contact Developer</a></p>
+						</p>
 					</div>
 				</div>
 			</div>

@@ -1,6 +1,13 @@
 
 /** ADD YOUR AWESOME CODES HERE **/
 
+
+.dark-nav {
+    background-color: rgb(10, 9, 9) !important;
+}
+.nav-item a {
+    color: #fff !important;
+}
 .header-address {
     color: #fff;
     font-size: 26px;
